@@ -1,0 +1,60 @@
+# 客户素材与原始内部说明仅保留在本地
+/测试场景素材/
+/测试场景素材.rar
+/中交demo方案.md
+/local-materials/
+/private/
+*.rar
+*.7z
+*.zip
+
+# 密钥及本机配置；允许不含密钥的配置样例
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+/config/local/
+**/application-local.yml
+**/application-local.yaml
+**/application-local.properties
+
+# Java / 前端依赖和构建结果
+**/target/
+**/build/
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/.turbo/
+*.class
+*.log
+*.tsbuildinfo
+
+# 上传文件、业务结果、数据库数据和测试报告
+/data/
+/uploads/
+/outputs/
+/storage/
+/logs/
+/tmp/
+/temp/
+/deploy/data/
+**/coverage/
+**/test-results/
+**/playwright-report/
+
+# 编辑器与操作系统临时文件
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.swp
+*.bak
