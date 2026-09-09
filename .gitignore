@@ -8,6 +8,14 @@
 *.7z
 *.zip
 
+# Word/Excel 按扩展名默认忽略，受控模板经确认后放 templates/（该目录豁免）
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.xlsm
+!templates/**
+
 # 密钥及本机配置；允许不含密钥的配置样例
 .env
 .env.*
@@ -40,6 +48,7 @@
 /uploads/
 /outputs/
 /storage/
+/runs/
 /logs/
 /tmp/
 /temp/
